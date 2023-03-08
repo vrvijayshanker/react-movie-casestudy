@@ -1,0 +1,18 @@
+.app {
+    min-height: 100vh;
+    background-color: #ffeecb;
+    background-image: url("./Assets/film-frame-bg.png");
+    background-position: bottom;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: #000000;
+    font-size: medium;
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 700px){
+    .app{
+        padding-top: 130px;
+    }
+}
